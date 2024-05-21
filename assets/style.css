@@ -1,5 +1,3 @@
-
-
 *{
     box-sizing: border-box
 } 
@@ -97,3 +95,9 @@ input[type="checkbox"] {
   .slider.round:before {
     border-radius: 50%;
   }
+
+@media screen and (max-width: 400px) {
+    .return-display {
+        font-size: 12px;
+    }
+}
