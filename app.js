@@ -17,6 +17,8 @@ function returnNumber() {
     return nums.charAt(Math.floor(Math.random() * numsLength));
 };
 
+
+
 function returnSymbol() {
     const symbols = "!@#$%^&*(){}<>/,.'";
     const symbolsLength = symbols.length;
